@@ -1,0 +1,24 @@
+# Auto-generated plugin.yml, generated at 2020/10/21 13:48:53 by org.bukkit.plugin.java.annotation.PluginAnnotationProcessor
+
+main: com.lupus.drop.LupusDrop
+name: LupusDrop
+version: 1.0-SNAPSHOT
+description: Simple drop plugin
+author: LupusVirtute
+website: github.com/PuccyDestroyerxXx
+depend:
+- Vault
+- LupusUtils
+- LupusCaseOpener
+- LupusCommandFramework
+commands:
+  changemult:
+    permission: lupusdrop.admin
+  multlist:
+    permission: lupusdrop.admin
+  removemult:
+    permission: lupusdrop.admin
+permissions:
+  lupusdrop.2x:
+    description: Double the drop!
+    default: op

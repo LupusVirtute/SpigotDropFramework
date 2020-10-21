@@ -1,0 +1,3 @@
+diamond_ore:
+  weight: 10000
+  dropType: 'MONEY'
